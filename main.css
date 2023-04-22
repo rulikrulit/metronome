@@ -1,0 +1,16 @@
+body {
+  font-size: 30px;
+}
+.input {
+  display: inline-block;
+  font-size: 30px;
+}
+#display-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+#display {
+  font-size: 200px;
+  font: 700;
+}
