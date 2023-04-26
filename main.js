@@ -17,7 +17,9 @@ let intervalProcess = null;
         currentCount++;
       }
       displayEl.innerHTML = currentCount;
-    }, interval);
+      var audio = new Audio('./hit.wav');
+      audio.play();
+    }, 60000 / interval);
   };
   run();
   countEl.addEventListener('change', run);
